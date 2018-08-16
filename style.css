@@ -6,6 +6,8 @@ a {
     text-decoration: none;
 }
 #grot{
+    text-align: right;
+    margin-right: 3em;
     color: white;
 }
 #grot:hover {
