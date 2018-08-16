@@ -1,3 +1,4 @@
 function myFunc() {
-    const myWindow = window.open("www.onet.pl");
+    const myWindow = window.open("//www.onet.pl");
 }
+
