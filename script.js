@@ -1,4 +1,12 @@
+const video = document.getElementById("myVideo");
+const goo = document.getElementById("grot")
 function myFunc() {
-    const myWindow = window.open("//www.onet.pl");
+    if (video.paused){
+        video.play();
+        goo.innerHTML = "STOP"
+    }
+    else {
+        video.pause();
+        goo.innerHTML = "START"
+    }
 }
-
